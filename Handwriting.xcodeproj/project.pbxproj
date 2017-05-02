@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F038598F1EB82F10001F33D1 /* neuralnet-mnist-trained in Resources */ = {isa = PBXBuildFile; fileRef = F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */; };
+		F03859921EB82F7F001F33D1 /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859911EB82F7F001F33D1 /* UIView+Constraints.swift */; };
+		F03859941EB83A51001F33D1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859931EB83A51001F33D1 /* MainView.swift */; };
+		F03859961EB83AA2001F33D1 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859951EB83AA2001F33D1 /* ShadowView.swift */; };
+		F038599A1EB83C15001F33D1 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859991EB83C15001F33D1 /* Colors.swift */; };
+		F03859A41EB84A28001F33D1 /* Activation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038599D1EB84A28001F33D1 /* Activation.swift */; };
+		F03859A51EB84A28001F33D1 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038599E1EB84A28001F33D1 /* Cache.swift */; };
+		F03859A61EB84A28001F33D1 /* Dataset.swift in Sources */ = {isa = PBXBuildFile; fileRef = F038599F1EB84A28001F33D1 /* Dataset.swift */; };
+		F03859A71EB84A28001F33D1 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859A01EB84A28001F33D1 /* Error.swift */; };
+		F03859A81EB84A28001F33D1 /* NeuralNet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859A11EB84A28001F33D1 /* NeuralNet.swift */; };
+		F03859A91EB84A28001F33D1 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859A21EB84A28001F33D1 /* Storage.swift */; };
+		F03859AA1EB84A28001F33D1 /* Structure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859A31EB84A28001F33D1 /* Structure.swift */; };
+		F03859AC1EB92D8C001F33D1 /* Float+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03859AB1EB92D8C001F33D1 /* Float+String.swift */; };
+		F08248431EB82EC200EC951B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08248421EB82EC200EC951B /* AppDelegate.swift */; };
+		F08248451EB82EC200EC951B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F08248441EB82EC200EC951B /* MainViewController.swift */; };
+		F082484A1EB82EC300EC951B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08248491EB82EC300EC951B /* Assets.xcassets */; };
+		F082484D1EB82EC300EC951B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "neuralnet-mnist-trained"; sourceTree = SOURCE_ROOT; };
+		F03859911EB82F7F001F33D1 /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		F03859931EB83A51001F33D1 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F03859951EB83AA2001F33D1 /* ShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		F03859991EB83C15001F33D1 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F038599D1EB84A28001F33D1 /* Activation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activation.swift; sourceTree = "<group>"; };
+		F038599E1EB84A28001F33D1 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		F038599F1EB84A28001F33D1 /* Dataset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dataset.swift; sourceTree = "<group>"; };
+		F03859A01EB84A28001F33D1 /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F03859A11EB84A28001F33D1 /* NeuralNet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuralNet.swift; sourceTree = "<group>"; };
+		F03859A21EB84A28001F33D1 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		F03859A31EB84A28001F33D1 /* Structure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structure.swift; sourceTree = "<group>"; };
+		F03859AB1EB92D8C001F33D1 /* Float+String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Float+String.swift"; sourceTree = "<group>"; };
+		F082483F1EB82EC200EC951B /* Handwriting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Handwriting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08248421EB82EC200EC951B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F08248441EB82EC200EC951B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F08248491EB82EC300EC951B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F082484C1EB82EC300EC951B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F082484E1EB82EC300EC951B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F082483C1EB82EC200EC951B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F038598D1EB82F00001F33D1 /* MNIST */ = {
+			isa = PBXGroup;
+			children = (
+				F038598E1EB82F10001F33D1 /* neuralnet-mnist-trained */,
+			);
+			name = MNIST;
+			sourceTree = "<group>";
+		};
+		F03859901EB82F46001F33D1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F03859911EB82F7F001F33D1 /* UIView+Constraints.swift */,
+				F03859AB1EB92D8C001F33D1 /* Float+String.swift */,
+				F03859991EB83C15001F33D1 /* Colors.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		F038599C1EB849EF001F33D1 /* NeuralNet */ = {
+			isa = PBXGroup;
+			children = (
+				F038599D1EB84A28001F33D1 /* Activation.swift */,
+				F038599E1EB84A28001F33D1 /* Cache.swift */,
+				F038599F1EB84A28001F33D1 /* Dataset.swift */,
+				F03859A01EB84A28001F33D1 /* Error.swift */,
+				F03859A11EB84A28001F33D1 /* NeuralNet.swift */,
+				F03859A21EB84A28001F33D1 /* Storage.swift */,
+				F03859A31EB84A28001F33D1 /* Structure.swift */,
+			);
+			name = NeuralNet;
+			sourceTree = "<group>";
+		};
+		F08248361EB82EC200EC951B = {
+			isa = PBXGroup;
+			children = (
+				F08248411EB82EC200EC951B /* Handwriting */,
+				F08248401EB82EC200EC951B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08248401EB82EC200EC951B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F082483F1EB82EC200EC951B /* Handwriting.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08248411EB82EC200EC951B /* Handwriting */ = {
+			isa = PBXGroup;
+			children = (
+				F08248421EB82EC200EC951B /* AppDelegate.swift */,
+				F08248441EB82EC200EC951B /* MainViewController.swift */,
+				F03859931EB83A51001F33D1 /* MainView.swift */,
+				F03859951EB83AA2001F33D1 /* ShadowView.swift */,
+				F03859901EB82F46001F33D1 /* Extensions */,
+				F038599C1EB849EF001F33D1 /* NeuralNet */,
+				F038598D1EB82F00001F33D1 /* MNIST */,
+				F08248491EB82EC300EC951B /* Assets.xcassets */,
+				F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */,
+				F082484E1EB82EC300EC951B /* Info.plist */,
+			);
+			path = Handwriting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F082483E1EB82EC200EC951B /* Handwriting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08248511EB82EC300EC951B /* Build configuration list for PBXNativeTarget "Handwriting" */;
+			buildPhases = (
+				F082483B1EB82EC200EC951B /* Sources */,
+				F082483C1EB82EC200EC951B /* Frameworks */,
+				F082483D1EB82EC200EC951B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Handwriting;
+			productName = Handwriting;
+			productReference = F082483F1EB82EC200EC951B /* Handwriting.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08248371EB82EC200EC951B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Swift AI";
+				TargetAttributes = {
+					F082483E1EB82EC200EC951B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5ZHKK24J8V;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F082483A1EB82EC200EC951B /* Build configuration list for PBXProject "Handwriting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08248361EB82EC200EC951B;
+			productRefGroup = F08248401EB82EC200EC951B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F082483E1EB82EC200EC951B /* Handwriting */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F082483D1EB82EC200EC951B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F082484D1EB82EC300EC951B /* LaunchScreen.storyboard in Resources */,
+				F038598F1EB82F10001F33D1 /* neuralnet-mnist-trained in Resources */,
+				F082484A1EB82EC300EC951B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F082483B1EB82EC200EC951B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F03859AA1EB84A28001F33D1 /* Structure.swift in Sources */,
+				F03859921EB82F7F001F33D1 /* UIView+Constraints.swift in Sources */,
+				F03859A81EB84A28001F33D1 /* NeuralNet.swift in Sources */,
+				F038599A1EB83C15001F33D1 /* Colors.swift in Sources */,
+				F03859A51EB84A28001F33D1 /* Cache.swift in Sources */,
+				F03859A61EB84A28001F33D1 /* Dataset.swift in Sources */,
+				F03859A91EB84A28001F33D1 /* Storage.swift in Sources */,
+				F03859941EB83A51001F33D1 /* MainView.swift in Sources */,
+				F08248451EB82EC200EC951B /* MainViewController.swift in Sources */,
+				F03859961EB83AA2001F33D1 /* ShadowView.swift in Sources */,
+				F03859A41EB84A28001F33D1 /* Activation.swift in Sources */,
+				F03859A71EB84A28001F33D1 /* Error.swift in Sources */,
+				F08248431EB82EC200EC951B /* AppDelegate.swift in Sources */,
+				F03859AC1EB92D8C001F33D1 /* Float+String.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F082484B1EB82EC300EC951B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F082484C1EB82EC300EC951B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F082484F1EB82EC300EC951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F08248501EB82EC300EC951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F08248521EB82EC300EC951B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZHKK24J8V;
+				INFOPLIST_FILE = Handwriting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-ai.Handwriting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F08248531EB82EC300EC951B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5ZHKK24J8V;
+				INFOPLIST_FILE = Handwriting/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "swift-ai.Handwriting";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F082483A1EB82EC200EC951B /* Build configuration list for PBXProject "Handwriting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F082484F1EB82EC300EC951B /* Debug */,
+				F08248501EB82EC300EC951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08248511EB82EC300EC951B /* Build configuration list for PBXNativeTarget "Handwriting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08248521EB82EC300EC951B /* Debug */,
+				F08248531EB82EC300EC951B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08248371EB82EC200EC951B /* Project object */;
+}
