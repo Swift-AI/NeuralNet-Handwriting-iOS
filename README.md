@@ -3,8 +3,6 @@ A handwriting recognition example for iOS using [NeuralNet](https://github.com/S
 
 Note: this application is part of the Swift AI project. Full details about the library can be found in the [main repo](https://github.com/Swift-AI/Swift-AI).
 
-Preview:
-
 ![preview](https://github.com/Swift-AI/NeuralNet-Handwriting-iOS/blob/master/preview.gif)
 
 ## About
@@ -21,6 +19,6 @@ Just clone or download this repository and run the app! All dependencies are inc
 
 Sketch a digit from 0 to 9 on the canvas. The neural network will attempt to classify the image.
 
-The neural network's input will be displayed in the bottom left - this is a scaled-down 28x28 version of your drawing. The network's output will be displayed in the bottom right, along with its confidence.
+The neural network's input will be displayed in the bottom left: this is a scaled-down 28x28px version of your drawing. The network's output will be displayed in the bottom right, along with the prediction's confidence.
 
 
