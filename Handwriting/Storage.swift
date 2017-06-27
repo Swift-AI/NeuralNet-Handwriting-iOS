@@ -44,15 +44,16 @@ public extension NeuralNet {
         
         // Read all required values from JSON
         guard let layerNodeCounts = array[NeuralNet.layerNodeCountsKey] as? [Int],
-            let lr = array[NeuralNet.learningRateKey] as? Float,
-            let momentum = array[NeuralNet.momentumKey] as? Float,
+            let lr = (array[NeuralNet.learningRateKey] as? NSNumber)?.floatValue,
+            let momentum = (array[NeuralNet.momentumKey] as? NSNumber)?.floatValue,
             let batchSize = array[NeuralNet.batchSizeKey] as? Int,
             let hiddenActivationStr = array[NeuralNet.hiddenActivationKey] as? String,
             let outputActivationStr = array[NeuralNet.outputActivationKey] as? String,
-            let weights = array[NeuralNet.weightsKey] as? [[Float]]
+            let weightNums = array[NeuralNet.weightsKey] as? [[NSNumber]]
             else {
                 throw Error.initialization("One or more required NeuralNet properties are missing.")
         }
+        let weights = weightNums.map { $0.map { $0.floatValue} }
         
         // Convert hidden activation function to enum
         var hiddenActivation: ActivationFunction.Hidden
